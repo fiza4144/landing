@@ -135,14 +135,23 @@ nav ul li a.active {
     border-bottom: 2px solid #00ff00; 
 }
 #about {
-    display: block;
+  color: #f7f0f0;
+    /* display: block;
     padding: 50px;
-    background: #f4f4f4;
+    background: #71ebbc; */
 }
 #about h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
+}
+#about-container {
+    max-width: 1200px;
+    background-image: url("https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D");
+}
+#about .container img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 #about p {
     text-align: center;
@@ -153,7 +162,7 @@ nav ul li a.active {
 #about .btn {
     display: inline-block;
     background-color: #28a745;
-    color: white;
+    color: rgb(111, 148, 190);
     padding: 12px 24px;
     font-size: 1rem;
     text-decoration: none;
